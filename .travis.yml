@@ -1,3 +1,9 @@
 language: node_js
 node_js:
-  - node
+- node
+
+deploy:
+  provider: script
+  script: npx glitch-deploy
+  on:
+    branch: master
