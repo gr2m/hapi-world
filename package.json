@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "standard"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/gr2m/hapi-world#readme",
   "devDependencies": {
     "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "hapi": "^16.5.2"
   }
 }
