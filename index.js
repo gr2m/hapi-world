@@ -12,7 +12,7 @@ server.route({
   method: 'GET',
   path: '/',
   handler: function (request, reply) {
-    return reply('hapi world!')
+    return reply('hapi world! Check 1, 2')
   }
 })
 
