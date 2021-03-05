@@ -7,17 +7,10 @@
     "start": "node index.js",
     "test": "standard"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gr2m/hapi-world.git"
-  },
+  "repository": "github:gr2m/hapi-world",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gr2m/hapi-world/issues"
-  },
-  "homepage": "https://github.com/gr2m/hapi-world#readme",
   "devDependencies": {
     "standard": "^10.0.3"
   },
